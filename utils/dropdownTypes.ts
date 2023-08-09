@@ -1,30 +1,31 @@
 export type themeType =
-  | "Modern"
-  | "Vintage"
-  | "Minimalist"
-  | "Professional"
-  | "Tropical";
+  | "现代"
+  | "复古"
+  | "极简"
+  | "专业"
+  | "热带";
 
 export type roomType =
-  | "Living Room"
-  | "Dining Room"
-  | "Bedroom"
-  | "Bathroom"
-  | "Office"
-  | "Gaming Room";
+  | "客厅"
+  | "餐厅"
+  | "卧室"
+  | "浴室"
+  | "办公室"
+  | "游戏室";
 
 export const themes: themeType[] = [
-  "Modern",
-  "Minimalist",
-  "Professional",
-  "Tropical",
-  "Vintage",
+  "现代",
+  "极简",
+  "专业",
+  "热带",
+  "复古",
 ];
+
 export const rooms: roomType[] = [
-  "Living Room",
-  "Dining Room",
-  "Office",
-  "Bedroom",
-  "Bathroom",
-  "Gaming Room",
+  "客厅",
+  "餐厅",
+  "办公室",
+  "卧室",
+  "浴室",
+  "游戏室",
 ];
